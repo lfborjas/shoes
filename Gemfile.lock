@@ -1,7 +1,9 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    fast_gettext (0.5.11)
+    gettext (2.1.0)
+      locale (>= 2.0.5)
+    locale (2.0.5)
     mechanize (1.0.0)
       nokogiri (>= 1.2.1)
     nokogiri (1.4.4)
@@ -10,5 +12,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  fast_gettext
+  gettext
   mechanize

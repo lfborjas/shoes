@@ -1,5 +1,7 @@
 source "http://rubygems.org"
-gem 'fast_gettext'
+
+gem 'gettext'
+
 group :development do
   gem "mechanize"
 end
